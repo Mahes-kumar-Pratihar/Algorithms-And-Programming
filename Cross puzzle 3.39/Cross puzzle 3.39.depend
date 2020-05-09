@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572129642 source:e:\5 algorithms\programs\cross puzzle 3.39\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
