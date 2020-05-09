@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1587328217 source:e:\5 algorithms\programs\run-off\main.c
+	"private.h"
+
+1587328009 e:\5 algorithms\programs\run-off\functions_description.h
+	"data.h"
+
+1587328061 e:\5 algorithms\programs\run-off\data.h
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+
+1587328455 e:\5 algorithms\programs\run-off\private.h
+	"data.h"
+
