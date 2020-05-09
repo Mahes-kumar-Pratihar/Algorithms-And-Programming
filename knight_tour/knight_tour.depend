@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1587509470 source:e:\5 algorithms\programs\knight_tour\main.c
+	<stdio.h>
+	<stdlib.h>
+
