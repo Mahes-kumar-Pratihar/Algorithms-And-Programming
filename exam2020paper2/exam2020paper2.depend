@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1587505046 source:e:\5 algorithms\programs\exam2020paper2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+

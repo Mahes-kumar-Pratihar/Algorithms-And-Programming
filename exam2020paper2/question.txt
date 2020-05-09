@@ -1,0 +1,8 @@
+Write the recursive function generate with the following prototype:
+void generate (char *str, int n, int m);
+The function receives a string str of decimal digits and two integers n and m. It prints all sets of digits belonging to
+str, which have at most n elements, and such that the sum of these elements is exactly equal to m.
+Let us suppose that the function receives str = “1234567890”, n = 2, m = 9. It must print the following sets: {9},
+{9, 0}, {0, 9}, {1, 8}, {8, 1}, {2, 7}, {7, 2}, {3, 6}, {6, 3}, {4, 5}, {5, 4}.
+Let us suppose that the function receives str = “111223”, n = 2, m = 5. It must print the following sets: {2, 3},
+{3, 2}, {2, 3}, {3, 2}.
