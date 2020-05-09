@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1576069803 source:e:\5 algorithms\programs\wordfrequency by lists\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	<ctype.h>
+

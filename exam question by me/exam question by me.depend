@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1576017500 source:e:\5 algorithms\programs\exam question by me\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+

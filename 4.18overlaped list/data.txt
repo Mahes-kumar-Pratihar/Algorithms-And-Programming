@@ -1,0 +1,14 @@
+#Alighieri Dante M
+eye brown 
+height tall
+hait long
+hobby poetry
+#Mozart Wolfgang M
+height short 
+hair brown 
+hobby music 
+hobby play
+#Andrea Black F
+height average
+eye brown
+hobby cooking

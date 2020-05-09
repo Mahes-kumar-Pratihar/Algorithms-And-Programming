@@ -1,0 +1,15 @@
+a 1
+a&p 1
+all 1
+course 1
+difficult 1
+exam 1
+hard 1
+have 1
+i 1
+is 1
+lot 1
+study 2
+the 1
+to 3
+topics 2
