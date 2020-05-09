@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1577078552 source:e:\5 algorithms\programs\searchsubstring1.19\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
