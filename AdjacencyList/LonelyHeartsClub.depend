@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1587593525 source:e:\5 algorithms\programs\lonelyheartsclub\main.c
+	"graphFunctions.h"
+
+1587593508 e:\5 algorithms\programs\lonelyheartsclub\graphfunctions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structure.h"
+
+1587593080 e:\5 algorithms\programs\lonelyheartsclub\structure.h
+
+1588412327 source:e:\5 algorithms\programs\adjacencylist\main.c
+	"graphFunctions.h"
+	<limits.h>
+
+1588409208 e:\5 algorithms\programs\adjacencylist\graphfunctions.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"structure.h"
+
+1588409208 e:\5 algorithms\programs\adjacencylist\structure.h
+

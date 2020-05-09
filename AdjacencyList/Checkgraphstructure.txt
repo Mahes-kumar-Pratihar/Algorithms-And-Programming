@@ -1,0 +1,101 @@
+int main()
+{
+
+    // allocate graph handle
+    char s1[5] = "A";
+    char s2[5] = "Bb";
+    char s3[5] = "CcC";
+    char s4[5] = "dDd";
+
+    int weight1 = 3;
+    int weight2 = 2;
+    int weight3 = 4;
+    int weight4 = 1;
+    graph_t *graph = malloc(sizeof(graph_t));
+    graph->head = NULL;
+    graph->n = 1;
+
+    //add vetex
+    vertex_t *vertex1 = malloc(sizeof(vertex_t));
+    vertex1->id = strdup(s1);
+    vertex1->nIn = 0;
+    vertex1->nOut = 0;
+    vertex1->visited = 0;
+    vertex1->edge = NULL;
+    vertex1->next = graph->head;
+    graph->head = vertex1;
+
+    vertex_t *vertex2 = malloc(sizeof(vertex_t));
+    vertex2->id = strdup(s2);
+    vertex2->nIn = 0;
+    vertex2->nOut = 0;
+    vertex2->visited = 0;
+    vertex2->edge = NULL;
+    vertex2->next = graph->head;
+    graph->head = vertex2;
+
+    vertex_t *vertex3 = malloc(sizeof(vertex_t));
+    vertex3->id = strdup(s3);
+    vertex3->nIn = 0;
+    vertex3->nOut = 0;
+    vertex3->visited = 0;
+    vertex3->edge = NULL;
+    vertex3->next = graph->head;
+    graph->head = vertex3;
+
+    vertex_t *vertex4 = malloc(sizeof(vertex_t));
+    vertex4->id = strdup(s4);
+    vertex4->nIn = 0;
+    vertex4->nOut = 0;
+    vertex4->visited = 0;
+    vertex4->edge = NULL;
+    vertex4->next = graph->head;
+    graph->head = vertex4;
+
+    //add edge
+    edge_t *edge1 = malloc(sizeof(edge_t));
+    edge1->vertex = vertex2;
+    edge1->weight = weight1;
+    edge1->next = vertex1->edge;
+    vertex1->edge = edge1;
+    vertex1->nOut++;
+    vertex2->nIn++;
+
+    edge_t *edge2 = malloc(sizeof(edge_t));
+    edge2->vertex = vertex3;
+    edge2->weight = weight2;
+    edge2->next = vertex2->edge;
+    vertex2->edge = edge2;
+    vertex2->nOut++;
+    vertex3->nIn++;
+
+    edge_t *edge3 = malloc(sizeof(edge_t));
+    edge3->vertex = vertex3;
+    edge3->weight = weight3;
+    edge3->next = vertex1->edge;
+    vertex1->edge = edge3;
+    vertex1->nOut++;
+    vertex4->nIn++;
+
+    edge_t *edge4 = malloc(sizeof(edge_t));
+    edge4->vertex = vertex4;
+    edge4->weight = weight4;
+    edge4->next = vertex3->edge;
+    vertex3->edge = edge4;
+    vertex3->nOut++;
+    vertex4->nIn++;
+
+    vertex_t *check1 = graph->head;
+    edge_t *check2 = NULL;
+    while(check1 != NULL){
+        printf("%s (nOut=%d) ->", check1->id, check1->nOut);
+        check2 = check1->edge;
+        while(check2 != NULL){
+            printf(" %s(Weight = %d)", check2->vertex->id, check2->weight);
+            check2 = check2->next;
+        }
+        check2 = NULL;
+        printf("\n");
+        check1 = check1->next;
+    }
+}
