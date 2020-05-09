@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1587575482 source:e:\5 algorithms\programs\test\main.c
+	"public.h"
+
+1587575423 e:\5 algorithms\programs\test\lib.h
+
+1587576026 source:e:\5 algorithms\programs\test\driver.c
+	"private.h"
+
+1587576177 e:\5 algorithms\programs\test\private.h
+	"public.h"
+
+1587576168 e:\5 algorithms\programs\test\public.h
+	"private.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<ctype.h>
+
+1587576026 source:e:\5 algorithms\programs\formula 1 race\driver.c
+	"private.h"
+
+1587576177 e:\5 algorithms\programs\formula 1 race\private.h
+	"public.h"
+
+1587576168 e:\5 algorithms\programs\formula 1 race\public.h
+	"private.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<ctype.h>
+
+1587575482 source:e:\5 algorithms\programs\formula 1 race\main.c
+	"public.h"
+

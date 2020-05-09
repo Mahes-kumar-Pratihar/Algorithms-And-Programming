@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1577172804 source:e:\5 algorithms\programs\exam1ofbook(standard)\main.c
+	"file.h"
+
+1577172964 e:\5 algorithms\programs\exam1ofbook(standard)\file.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1577173414 source:e:\5 algorithms\programs\exam1ofbook(standard)\file1.c
+	"file.h"
+

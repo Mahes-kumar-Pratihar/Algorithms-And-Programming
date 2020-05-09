@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1577089392 source:e:\5 algorithms\programs\exampractice\main.c
+	<stdio.h>
+	<stdlib.h>
+	<float.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1579567564 source:e:\5 algorithms\programs\umarquestion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

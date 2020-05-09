@@ -1,0 +1,30 @@
+
+John has decided to throw a house party for his 30th birthday and he wants to go to the grocery store for shopping.
+He has a list of items and constraints he must respect during the shopping. This information is stored into a file where
+each line has the following format:
+
+item weight price availability
+
+where item is the name of the item, weight indicates the weight of the product, value is its price, and availability
+indicates the maximum availability of that product. The first line of the file indicates the total number of products
+(lines) within the file. Notice that weight, value, and availability are positive integers, and that item is a
+string of maximum 50 characters.
+Write a program that helps John to fill his cart with products such that the total weight does not exceed W, each
+product count does not exceed its availability, and their total price (i.e., value) is maximized. The weight W and the
+name of the file are passed as parameters to the program. If a solution can be found, the program must print all items
+selected with the corresponding count, weight, and price, following the example reported below. If a solution cannot
+be found, the program should report an error message.
+For example, given the input file
+6
+water 153 200 2
+sandwich 50 60 2
+banana 27 60 2
+apple 39 40 3
+cheese 23 30 1
+beer 52 10 3
+If the cart capacity is equal to W = 400, then the output would be:
+         count weight price
+water      2    306    400
+banana     2    54     120
+apple      1    39     40
+solution   5    399    560

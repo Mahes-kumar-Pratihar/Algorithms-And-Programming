@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1588395546 source:e:\5 algorithms\programs\housebuying\main.c
+	<stdio.h>
+	<stdlib.h>
+

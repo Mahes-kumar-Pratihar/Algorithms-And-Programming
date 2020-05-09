@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587500160 source:e:\5 algorithms\programs\trying\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
