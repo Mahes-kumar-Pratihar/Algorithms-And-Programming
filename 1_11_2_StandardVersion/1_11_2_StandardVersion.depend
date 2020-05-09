@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1587997434 source:e:\5 algorithms\programs\1_11_2_standardversion\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+
