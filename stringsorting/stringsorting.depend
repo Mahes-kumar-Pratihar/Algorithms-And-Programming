@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572876878 source:e:\5 algorithms\programs\stringsorting\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

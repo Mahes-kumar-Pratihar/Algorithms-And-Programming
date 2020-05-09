@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1572376682 source:e:\5 algorithms\programs\example1.26\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

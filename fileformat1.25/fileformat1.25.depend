@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1572299049 source:e:\5 algorithms\programs\fileformat1.25\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

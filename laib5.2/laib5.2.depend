@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573306465 source:e:\5 algorithms\programs\laib5.2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
