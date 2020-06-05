@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1591394293 source:e:\5 algorithms\programs\examination12simplifiedversion\main.c
+	"public.h"
+
+1591394293 e:\5 algorithms\programs\examination12simplifiedversion\public.h
+	"private.h"
+
+1591384146 e:\5 algorithms\programs\examination12simplifiedversion\private.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+

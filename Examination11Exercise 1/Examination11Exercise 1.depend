@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1591278390 source:e:\5 algorithms\programs\examination11exercise 1\main.c
+	"private.h"
+
+1591278470 e:\5 algorithms\programs\examination11exercise 1\private.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ctype.h>
+
+1591267577 e:\5 algorithms\programs\examination11exercise 1\public.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<ctype.h>
+
