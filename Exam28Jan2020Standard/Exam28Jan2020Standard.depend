@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1591526433 source:e:\5 algorithms\programs\exam28jan2020standard\main.c
+	"public.h"
+
+1591526433 e:\5 algorithms\programs\exam28jan2020standard\public.h
+	"private.h"
+
+1591526571 e:\5 algorithms\programs\exam28jan2020standard\private.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+
