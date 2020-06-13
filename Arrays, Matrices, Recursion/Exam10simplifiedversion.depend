@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1592057498 source:e:\5 algorithms\programs\exam10simplifiedversion\main.c
+	"public.h"
+
+1592056163 e:\5 algorithms\programs\exam10simplifiedversion\public.h
+	"private.h"
+
+1592057590 e:\5 algorithms\programs\exam10simplifiedversion\private.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+
+1592057498 source:e:\5 algorithms\programs\arrays, matrices, recursion\main.c
+	"public.h"
+
+1592056163 e:\5 algorithms\programs\arrays, matrices, recursion\public.h
+	"private.h"
+
+1592057590 e:\5 algorithms\programs\arrays, matrices, recursion\private.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+
